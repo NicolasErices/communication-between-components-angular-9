@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'comunicationParentChildrenAngular9';
+  contador: number = 0
+  constructor() { }
+  sumaButton(){
+    this.contador += 10;
+  }
+  restaButton(){
+    this.contador -= 10;
+  }
 }

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "comunicationParentChildrenAngular9"
+    }
+  },
+  "defaultProject": "comunicationParentChildrenAngular9",
+  "cli": {
+    "analytics": "41b337fd-c076-4107-aad5-ca417266d0c1"
+  }
 }
